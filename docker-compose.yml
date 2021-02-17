@@ -36,3 +36,10 @@ services:
             context: .
             dockerfile: src/ApiGateway/ApiGateway/Dockerfile
 
+
+    webui:
+        image: ${DOCKER_REGISTRY-}webui
+        build:
+            context: .
+            dockerfile: src/WebUI/Dockerfile
+

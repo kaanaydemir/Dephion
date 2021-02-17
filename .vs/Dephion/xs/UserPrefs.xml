@@ -1,32 +1,36 @@
 ﻿<Properties StartupConfiguration="{FAF354D6-B81B-46CF-8698-521330D3632B}|Default">
   <MonoDevelop.Ide.ItemProperties.src.Reservation.Reservation.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.src.WebApp.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/WebUI/Pages/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="docker-compose.override.yml">
     <Files>
-      <File FileName="src/WebUI/Pages/Index.cshtml.cs" Line="84" Column="65" />
-      <File FileName="src/WebUI/Pages/Index.cshtml" Line="19" Column="68" />
+      <File FileName="src/WebUI/Pages/Index.cshtml.cs" Line="94" Column="39" />
+      <File FileName="src/WebUI/Pages/Index.cshtml" Line="25" Column="81" />
       <File FileName="src/Room/Room.API/Data/RoomContextSeed.cs" Line="1" Column="1" />
+      <File FileName="src/WebUI/Dockerfile" Line="1" Column="1" />
+      <File FileName="docker-compose.yml" Line="44" Column="13" />
+      <File FileName="docker-compose.override.yml" Line="79" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Dephion" expanded="True">
             <Node name="src" expanded="True">
-              <Node name="Room" expanded="True">
-                <Node name="Room.API" expanded="True">
-                  <Node name="Data" expanded="True" />
-                </Node>
-              </Node>
               <Node name="WebApp" expanded="True">
-                <Node name="WebUI" expanded="True">
-                  <Node name="Models" expanded="True" />
-                  <Node name="Pages" expanded="True">
-                    <Node name="Index.cshtml" expanded="True" selected="True" />
-                  </Node>
-                </Node>
+                <Node name="WebUI" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="docker-compose" expanded="True">
+              <Node name="docker-compose.yml" expanded="True">
+                <Node name="docker-compose.override.yml" selected="True" />
               </Node>
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>Configuration.GetConnectionString("ReservationConnection")</Value>
+          <Value> ViewData["startDate"]</Value>
         </State>
       </Pad>
     </Pads>
@@ -40,6 +44,7 @@
     <BreakpointStore>
       <Breakpoint file="/Users/kaanaydemir/Projects/Dephion/src/Item/Item.API/Data/ItemContext.cs" relfile="src/Item/Item.API/Data/ItemContext.cs" line="14" column="1" />
       <Breakpoint file="/Users/kaanaydemir/Projects/Dephion/src/WebUI/Pages/Index.cshtml.cs" relfile="src/WebUI/Pages/Index.cshtml.cs" line="50" column="1" />
+      <Breakpoint file="/Users/kaanaydemir/Projects/Dephion/src/WebUI/Pages/Index.cshtml.cs" relfile="src/WebUI/Pages/Index.cshtml.cs" line="87" column="1" />
       <Breakpoint file="/Users/kaanaydemir/Projects/Dephion/src/WebUI/Pages/Index.cshtml.cs" relfile="src/WebUI/Pages/Index.cshtml.cs" line="66" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

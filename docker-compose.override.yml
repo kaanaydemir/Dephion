@@ -72,3 +72,19 @@ services:
         volumes:
             - ~/.aspnet/https:/root/.aspnet/https:ro
             - ~/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+
+    webui:
+        container_name : webui
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+            - "ApiSettings:BaseAddress=apigateway"
+        depends_on:
+            - room.api
+            - item.api
+            - reservation.api
+            - apigateway
+        ports:
+            - "8003:80"
+        volumes:
+            - ~/.aspnet/https:/root/.aspnet/https:ro
+            - ~/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
