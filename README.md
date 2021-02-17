@@ -5,7 +5,7 @@ Dephion MeetingRoom Reservation Project with Microservice Architecture
 Project integrates with swaggerUI
 
 In order to run the project you need to install docker
-To build to project open a terminal run below code where docker.compose file located.After that you'll be able to see API and make able to send request through swaggerUI
+to build to project open a terminal run below code where docker.compose file located.After that you'll be able to see API and able to send request through swaggerUI
 
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 
