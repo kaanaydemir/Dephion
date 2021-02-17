@@ -1,23 +1,28 @@
 # Dephion
+**Room Reservation**
 
-Dephion MeetingRoom Reservation Project with Microservice Architecture 
+## Getting Started
+Make sure you have installed docker in your environment. After that, you can run the below commands from the **/src/** directory and get started with the `Dephion` immediately.
 
-Project integrates with swaggerUI
+```powershell
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build
+```
+# Architecture overview
+This reference application is cross-platform at the server and client side.
+Services capable of running on Linux or Windows containers depending on your Docker host, and to Xamarin for mobile apps running on Android, iOS 
+The architecture proposes a microservice oriented architecture implementation with multiple autonomous microservices 
+and implementing different approaches within each microservice (simple CRUD vs. DDD/CQRS patterns)
 
-In order to run the project you need to install docker
-to build to project open a terminal run below code where docker.compose file located.After that you'll be able to see API and able to send request through swaggerUI
+![image](https://drive.google.com/uc?export=view&id=1fFI5zRvVQpqw6qZqc7L3rV4zmuI3yMtt)
 
-docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+## Running / Development
 
-Description
-RoomDb and ItemDb stores information about rooms and items that can used in meetingrooms.Reservation detail stores inside reservationDb.
+* Install Docker
+* Open project location at terminal and run `docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build`
+* Visit your UI at [http://localhost:8003/swagger/index.html](http://localhost:8003/swagger/index.html).
+* Visit your RoomApi at [http://localhost:8000/swagger/index.html](http://localhost:8000/swagger/index.html).
+* Visit your ItemApi at [http://localhost:8001/swagger/index.html](http://localhost:8001/swagger/index.html).
+* Visit your Reservation at [http://localhost:8002/swagger/index.html](http://localhost:8002/swagger/index.html).
+* Visit your Apigateway at [http://localhost:7000](http://localhost:7000).
 
 
-Databases
-Roomdb : MongoDb
-Itemdb : MongoDb
-ReservationDb : Sql Server
-
-RoomApi : http://localhost:8000/swagger/index.html
-ItemApi : http://localhost:8001/swagger/index.html
-ReservationApi : http://localhost:8002/swagger/index.html
