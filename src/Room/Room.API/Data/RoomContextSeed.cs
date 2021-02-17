@@ -23,22 +23,43 @@ namespace Room.API.Data
                 {
                     Capacity = 11,
                     Location = 1,
-                    Name = "Big",
-                    Items = new List<Item>(){ new Item() { ItemId = "1", Name = "TV", Category = 1 }, new Item() { ItemId = "1", Name = "PC", Category = 2 } }
+                    Name = "101",
+                    Items = new List<Item>(){ new Item() { ItemId = "602d62a5eb7a112430e5f776", Name = "TV", Category = 1 } }
                 },
                 new MeetingRoom()
                 {
                     Capacity = 7,
                     Location = 2,
-                    Name = "Medium",
-                    Items = new List<Item>(){ new Item() { ItemId = "1", Name = "Table", Category = 1 } }
+                    Name = "102",
+                    Items = new List<Item>(){ new Item() { ItemId = "602d62b7eb7a112430e5f777", Name = "Table", Category = 2 } }
                 },
                 new MeetingRoom()
                 {
                     Capacity = 5,
+                    Location = 1,
+                    Name = "103",
+                    Items = new List<Item>(){ new Item() { ItemId = "602d62c5eb7a112430e5f778", Name = "Desk", Category = 3 } }
+                },
+                new MeetingRoom()
+                {
+                    Capacity = 21,
                     Location = 2,
-                    Name = "Small",
-                    Items = new List<Item>(){ new Item() { ItemId = "1", Name = "Desk", Category = 1 } }
+                    Name = "103",
+                    Items = new List<Item>(){ new Item() { ItemId = "602d62c5eb7a112430e5f779", Name = "Xbox", Category = 4 } }
+                },
+                new MeetingRoom()
+                {
+                    Capacity = 34,
+                    Location = 2,
+                    Name = "104",
+                    Items = new List<Item>(){ new Item() { ItemId = "602d62c5eb7a112430e5f780", Name = "Scanner", Category = 6 } }
+                },
+                new MeetingRoom()
+                {
+                    Capacity = 20,
+                    Location = 1,
+                    Name = "105",
+                    Items = new List<Item>(){ new Item() { ItemId = "602d62c5eb7a112430e5f790", Name = "Phone", Category = 5} }
                 },
             };
         }

@@ -1,14 +1,86 @@
 services:
+  apigateway:
+    build:
+      context: /Users/kaanaydemir/Projects/Dephion
+      dockerfile: src/ApiGateway/ApiGateway/Dockerfile
+    container_name: apigateway
+    depends_on:
+      item.api:
+        condition: service_started
+      reservation.api:
+        condition: service_started
+      room.api:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: apigateway
+    ports:
+    - published: 7000
+      target: 80
+    volumes:
+    - /Users/kaanaydemir/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/kaanaydemir/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+  item.api:
+    build:
+      context: /Users/kaanaydemir/Projects/Dephion
+      dockerfile: src/Item/Item.API/Dockerfile
+    container_name: itemapi
+    depends_on:
+      itemdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ItemDatabaseSettings:ConnectionString: mongodb://itemdb:27017
+    image: item
+    ports:
+    - published: 8001
+      target: 80
+    volumes:
+    - /Users/kaanaydemir/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/kaanaydemir/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+  itemdb:
+    container_name: itemdb
+    image: mongo
+    ports:
+    - published: 27018
+      target: 27017
+    restart: always
+  reservation.api:
+    build:
+      context: /Users/kaanaydemir/Projects/Dephion
+      dockerfile: src/Reservation/Reservation.API/Dockerfile
+    container_name: reservationapi
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:ReservationConnection: Server=reservationdb;Database=ReservationDb;User
+        Id=sa;Password=SwN12345678
+    image: reservation
+    ports:
+    - published: 8002
+      target: 80
+    volumes:
+    - /Users/kaanaydemir/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/kaanaydemir/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+  reservationdb:
+    container_name: reservationdb
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: SwN12345678
+    image: mcr.microsoft.com/mssql/server
+    ports:
+    - published: 1433
+      target: 1433
   room.api:
     build:
       context: /Users/kaanaydemir/Projects/Dephion
       dockerfile: src/Room/Room.API/Dockerfile
+    container_name: roomapi
     depends_on:
       roomdb:
         condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      RoomDatabaseSettings:ConnectionString: mongodb://catalogdb:27017
+      RoomDatabaseSettings:ConnectionString: mongodb://roomdb:27017
     image: room
     ports:
     - published: 8000

@@ -1,9 +1,3 @@
-/Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/obj/Debug/netcoreapp3.1/Room.API.csprojAssemblyReference.cache
-/Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/obj/Debug/netcoreapp3.1/Room.API.AssemblyInfoInputs.cache
-/Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/obj/Debug/netcoreapp3.1/Room.API.AssemblyInfo.cs
-/Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/obj/Debug/netcoreapp3.1/Room.API.csproj.CoreCompileInputs.cache
-/Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/obj/Debug/netcoreapp3.1/Room.API.MvcApplicationPartsAssemblyInfo.cs
-/Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/obj/Debug/netcoreapp3.1/Room.API.MvcApplicationPartsAssemblyInfo.cache
 /Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/bin/Debug/netcoreapp3.1/appsettings.json
 /Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/bin/Debug/netcoreapp3.1/Room.API.deps.json
@@ -24,6 +18,11 @@
 /Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/bin/Debug/netcoreapp3.1/runtimes/win/native/libzstd.dll
 /Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/bin/Debug/netcoreapp3.1/runtimes/win/native/snappy32.dll
 /Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/bin/Debug/netcoreapp3.1/runtimes/win/native/snappy64.dll
+/Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/obj/Debug/netcoreapp3.1/Room.API.AssemblyInfoInputs.cache
+/Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/obj/Debug/netcoreapp3.1/Room.API.AssemblyInfo.cs
+/Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/obj/Debug/netcoreapp3.1/Room.API.csproj.CoreCompileInputs.cache
+/Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/obj/Debug/netcoreapp3.1/Room.API.MvcApplicationPartsAssemblyInfo.cs
+/Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/obj/Debug/netcoreapp3.1/Room.API.MvcApplicationPartsAssemblyInfo.cache
 /Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/obj/Debug/netcoreapp3.1/staticwebassets/Room.API.StaticWebAssets.Manifest.cache
 /Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/obj/Debug/netcoreapp3.1/staticwebassets/Room.API.StaticWebAssets.xml
 /Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/obj/Debug/netcoreapp3.1/scopedcss/bundle/Room.API.styles.css

@@ -1,0 +1,91 @@
+﻿{
+  "Routes": [
+    //Room API
+    {
+      "DownstreamPathTemplate": "/api/v1/Room",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "roomapi",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Room",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Room/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "roomapi",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Room/{id}",
+      "UpstreamHttpMethod": [ "GET", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Room/GetMeetingRoomByLocation/{location}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "roomapi",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Room/GetMeetingRoomByLocation/{location}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Room/GetMeetingRoomByCapacity/{capacity}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "roomapi",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Room/GetMeetingRoomByCapacity/{capacity}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    //Item API
+    {
+      "DownstreamPathTemplate": "/api/v1/Item",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "itemapi",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Item",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Item/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "itemapi",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Item/{id}",
+      "UpstreamHttpMethod": [ "GET", "DELETE" ]
+    },
+    //Reservation API
+    {
+      "DownstreamPathTemplate": "/api/v1/Reservation",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "reservationapi",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Reservation",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
+    }
+  ]
+}
