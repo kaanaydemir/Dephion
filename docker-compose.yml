@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+
+    roomdb:
+        image: mongo
+    itemdb:
+        image: mongo
+
+    reservationdb:
+        image: mcr.microsoft.com/mssql/server
+
+    room.api:
+        image: ${DOCKER_REGISTRY-}room
+        build:
+            context: .
+            dockerfile: src/Room/Room.API/Dockerfile
+
+    item.api:
+        image: ${DOCKER_REGISTRY-}item
+        build:
+            context: .
+            dockerfile: src/Item/Item.API/Dockerfile
+
+
+    reservation.api:
+        image: ${DOCKER_REGISTRY-}reservation
+        build:
+            context: .
+            dockerfile: src/Reservation/Reservation.API/Dockerfile
+

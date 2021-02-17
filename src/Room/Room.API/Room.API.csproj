@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DockerComposeProjectPath>../../../docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>cdf55296-b603-45e1-b07f-46cd150b926e</UserSecretsId>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\Interfaces\" />
+    <Folder Include="Data\" />
+    <Folder Include="Data\Interfaces\" />
+    <Folder Include="Settings\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.11.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.0.5" />
+  </ItemGroup>
+</Project>

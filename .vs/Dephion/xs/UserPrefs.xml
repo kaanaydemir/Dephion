@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{1352EE95-F8D6-4E28-879B-5C5265BD085E}|Default">
+  <MonoDevelop.Ide.ItemProperties.src.Reservation.Reservation.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Reservation/Reservation.Infrastructure/Repositories/ReservationRepository.cs">
+    <Files>
+      <File FileName="src/Reservation/Reservation.API/Controllers/ReservationController.cs" Line="38" Column="77" />
+      <File FileName="src/Reservation/Reservation.Application/Commands/CreateReservationCommand.cs" />
+      <File FileName="src/Reservation/Reservation.Application/Responses/ReservationResponse.cs" />
+      <File FileName="src/Reservation/Reservation.Application/Mapper/ReservationMapper.cs" />
+      <File FileName="src/Reservation/Reservation.Application/Handlers/CreateReservationHandler.cs" />
+      <File FileName="src/Reservation/Reservation.Application/Mapper/ReservationMappingProfile.cs" />
+      <File FileName="src/Reservation/Rezervation.Core/Entities/Reserve.cs" />
+      <File FileName="src/Reservation/Reservation.Application/Handlers/GetRezervationsWithProductsHandler.cs" />
+      <File FileName="src/Reservation/Reservation.Application/Queries/GetRezervationsWithProductsQuery.cs" />
+      <File FileName="src/Reservation/Rezervation.Core/Repositories/IReservationRepository.cs" />
+      <File FileName="src/Reservation/Reservation.Infrastructure/Repositories/ReservationRepository.cs" Line="17" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Dephion" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.src.Item.Item.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.src.Room.Room.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/kaanaydemir/Projects/Dephion/src/Room/Room.API/Data/RoomContextSeed.cs" relfile="src/Room/Room.API/Data/RoomContextSeed.cs" line="14" column="1" />
+      <Breakpoint file="/Users/kaanaydemir/Projects/Dephion/src/Item/Item.API/Data/ItemContext.cs" relfile="src/Item/Item.API/Data/ItemContext.cs" line="14" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

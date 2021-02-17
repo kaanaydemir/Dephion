@@ -1,0 +1,311 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.API/Reservation.API.csproj": {}
+  },
+  "projects": {
+    "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.API/Reservation.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.API/Reservation.API.csproj",
+        "projectName": "Reservation.API",
+        "projectPath": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.API/Reservation.API.csproj",
+        "packagesPath": "/Users/kaanaydemir/.nuget/packages/",
+        "outputPath": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kaanaydemir/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.Application/Reservation.Application.csproj": {
+                "projectPath": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.Application/Reservation.Application.csproj"
+              },
+              "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.Infrastructure/Reservation.Infrastructure.csproj": {
+                "projectPath": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.Infrastructure/Reservation.Infrastructure.csproj"
+              },
+              "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/Reservation.Core.csproj": {
+                "projectPath": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/Reservation.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.Application/Reservation.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.Application/Reservation.Application.csproj",
+        "projectName": "Reservation.Application",
+        "projectPath": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.Application/Reservation.Application.csproj",
+        "packagesPath": "/Users/kaanaydemir/.nuget/packages/",
+        "outputPath": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kaanaydemir/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/Reservation.Core.csproj": {
+                "projectPath": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/Reservation.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.Infrastructure/Reservation.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.Infrastructure/Reservation.Infrastructure.csproj",
+        "projectName": "Reservation.Infrastructure",
+        "projectPath": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.Infrastructure/Reservation.Infrastructure.csproj",
+        "packagesPath": "/Users/kaanaydemir/.nuget/packages/",
+        "outputPath": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kaanaydemir/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/Reservation.Core.csproj": {
+                "projectPath": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/Reservation.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/Reservation.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/Reservation.Core.csproj",
+        "projectName": "Reservation.Core",
+        "projectPath": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/Reservation.Core.csproj",
+        "packagesPath": "/Users/kaanaydemir/.nuget/packages/",
+        "outputPath": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kaanaydemir/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

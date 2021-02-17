@@ -1,0 +1,60 @@
+version: '3.4'
+
+services:
+
+    roomdb:
+        container_name: roomdb
+        restart: always
+        ports:
+            - "27017:27017"
+
+    itemdb:
+        container_name: itemdb
+        restart: always
+        ports:
+            - "27018:27017"
+
+    reservationdb:
+        container_name: reservationdb
+        ports:
+            - "1433:1433"
+        environment:
+            SA_PASSWORD: "SwN12345678"
+            ACCEPT_EULA: "Y"
+
+    room.api:
+        container_name: roomapi
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+            - "RoomDatabaseSettings:ConnectionString=mongodb://roomdb:27017"
+        depends_on:
+            - roomdb
+        ports:
+            - "8000:80"
+        volumes:
+            - ~/.aspnet/https:/root/.aspnet/https:ro
+            - ~/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+
+    item.api:
+        container_name: itemapi
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+            - "ItemDatabaseSettings:ConnectionString=mongodb://itemdb:27017"
+        depends_on:
+            - itemdb
+        ports:
+            - "8001:80"
+        volumes:
+            - ~/.aspnet/https:/root/.aspnet/https:ro
+            - ~/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+
+    reservation.api:
+        container_name : reservationapi
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+            - "ConnectionStrings:ReservationConnection=Server=reservationdb;Database=ReservationDb;User Id=sa;Password=SwN12345678"
+        ports:
+            - "8002:80"
+        volumes:
+            - ~/.aspnet/https:/root/.aspnet/https:ro
+            - ~/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro

@@ -1,0 +1,9 @@
+/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/bin/Debug/netcoreapp3.1/Reservation.Core.deps.json
+/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/bin/Debug/netcoreapp3.1/Reservation.Core.dll
+/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/bin/Debug/netcoreapp3.1/Reservation.Core.pdb
+/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/obj/Debug/netcoreapp3.1/Reservation.Core.csprojAssemblyReference.cache
+/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/obj/Debug/netcoreapp3.1/Reservation.Core.AssemblyInfoInputs.cache
+/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/obj/Debug/netcoreapp3.1/Reservation.Core.AssemblyInfo.cs
+/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/obj/Debug/netcoreapp3.1/Reservation.Core.csproj.CoreCompileInputs.cache
+/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/obj/Debug/netcoreapp3.1/Reservation.Core.dll
+/Users/kaanaydemir/Projects/Dephion/src/Reservation/Rezervation.Core/obj/Debug/netcoreapp3.1/Reservation.Core.pdb

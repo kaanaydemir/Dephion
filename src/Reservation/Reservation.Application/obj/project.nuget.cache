@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "gGOsz1oYSbFRqwsH5NXA4zQ+8PKNyvJh8Oxp49d0c7b/8PCBXZm5AtDnnQYKTLpqzt+8y9mTFWpBxio2kCqxtw==",
+  "success": true,
+  "projectFilePath": "/Users/kaanaydemir/Projects/Dephion/src/Reservation/Reservation.Application/Reservation.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/kaanaydemir/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/Users/kaanaydemir/.nuget/packages/fluentvalidation/9.5.1/fluentvalidation.9.5.1.nupkg.sha512",
+    "/Users/kaanaydemir/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
+    "/Users/kaanaydemir/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/kaanaydemir/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
